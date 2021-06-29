@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, Raleway;
+    font-weight: 300;
+    color: black;
+}
+
+/* headings and home button */
+
+h1, h2 {
+    font-family: Montserrat, Raleway;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: aqua;
+}
+
+#home {
+    float: left;
+    font-size: inherit;
+    margin-left: 30px;
+    color: black;
+    border-radius: 12px;
+}
+
+
+
+/* navigation links */
+
+#pages {
+    font-size: 100%;
+    letter-spacing: 4px;
+    line-height: 100px;
+}
+
+#pages li {
+    float: right;
+    list-style-type: circle;
+    margin-right: 50px;
+}
+
+#pages a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#pages a:hover {
+    border: 1px solid rgb(238, 15, 15);
+}
+
+.active {
+    border: 1px solid black;
+}
+
