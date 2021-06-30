@@ -11,11 +11,33 @@ body {
     font-weight: 300;
     color: black;
     padding-bottom: 30px;
+    background-color: whitesmoke;
 }
 
-/* headings and home button */
+/* home button and navigation links */
 
-h1, h2 {
+#home {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: aqua;
+    background-color: burlywood;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 80px;
+    margin-left: 5%;
+}
+
+#home:hover {
+    background-color: antiquewhite;
+}
+
+h1 {
     font-family: Montserrat, Raleway;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -23,41 +45,28 @@ h1, h2 {
     Background-color: burlywood;
 }
 
-#home {
-    float: left;
-    font-size: inherit;
-    margin-left: 30px;
-    color: black;
-    border-radius: 12px;
-}
-
-
-
-/* navigation links */
-
-#pages {
-    font-size: 100%;
-    letter-spacing: 4px;
+.pages {
     line-height: 100px;
+    background-color: burlywood;
 }
 
-#pages li {
+.pages li {
     float: right;
     list-style-type: circle;
     margin-right: 50px;
 }
 
-#pages a {
+.pages a {
     text-decoration: none;
     color: inherit;
 }
 
-#pages a:hover {
-    border: 1px solid aqua;
+.pages a:hover {
+    border: 1px solid lawngreen;
 }
 
 .active {
-    border: 1px solid black;
+    border: 1px solid aqua;
 }
 
 /* Top "house" image and Introduction */
@@ -70,11 +79,13 @@ h1, h2 {
 }
 
 #house {
-    background: url('https://i.imgur.com/MpW0RDQ.png') no-repeat;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    margin-left: 90px;
+    margin-top: 100px;
+    width: auto;
+    float: left;
+    border-style: double;
+    border-color: aqua;
 }
 
 
@@ -83,15 +94,16 @@ h1, h2 {
     font-size: 100%;
     font-family: Montserrat, Raleway;
     letter-spacing: 4px;
-    width: 400px;
-    height: 300px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(255, 233, 204, 0.644);
+    width: 30%;
+    height: auto;
+    background-color: antiquewhite;
     bottom: 30px;
-    right: 150px;
     position: absolute;
-    color: black;
+    right: 150px;
+    margin: 5px;
+    text-align: center;
+    border-style: double;
+    border-color: aqua;
 }
 
 /* style for the first three sections */
@@ -123,7 +135,7 @@ h1, h2 {
 
 #sibling-list {
     list-style-type: upper-roman;
-    list-style-position: inside;
+    list-style-position: inherit;
     display: inline-block;
     padding-left: 30px;
 }
@@ -134,6 +146,7 @@ h1, h2 {
     background-color: antiquewhite;
     float: left;
     width: 50%;
+    border-style: double;
 }
 
 .former-tenants, #nature {
@@ -144,5 +157,7 @@ h1, h2 {
 
 #nature {
     float: right;
+    border-style: double;
+    border-color: aqua;
 }
 
