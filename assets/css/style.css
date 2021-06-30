@@ -70,14 +70,15 @@ h1, h2 {
 #house {
     height: 600px;
     width: 100%;
-    background: url('https://i.imgur.com/dVQK2Ed.jpg') no-repeat center center;
+    background: url('https://i.imgur.com/MpW0RDQ.png') no-repeat;
+    float: right;
 }
 
 
-#cover-text {
+.cover-text {
+    float: right;
     font-size: 100%;
     font-family: Montserrat, Raleway;
-    text-transform: uppercase;
     letter-spacing: 4px;
     width: 400px;
     height: 300px;
@@ -87,5 +88,33 @@ h1, h2 {
     bottom: 30px;
     right: 150px;
     position: absolute;
+    color: black;
 }
+
+/* style for the first three sections */
+
+.sections {
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    padding-right: 30px;
+    border-style: double;
+    border-color: aqua;
+    text-align: center;
+    list-style-position: inside;
+}
+
+#crops-list {
+    list-style-position: inside;
+}
+
+#section-1 {
+    background-color: burlywood;
+}
+
+#section-3 {
+    background-color: burlywood;
+}
+
+
 
