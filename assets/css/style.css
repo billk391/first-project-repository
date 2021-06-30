@@ -20,6 +20,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: aqua;
+    Background-color: burlywood;
 }
 
 #home {
@@ -52,7 +53,7 @@ h1, h2 {
 }
 
 #pages a:hover {
-    border: 1px solid rgb(238, 15, 15);
+    border: 1px solid aqua;
 }
 
 .active {
@@ -69,10 +70,11 @@ h1, h2 {
 }
 
 #house {
-    height: 600px;
-    width: 100%;
     background: url('https://i.imgur.com/MpW0RDQ.png') no-repeat;
-    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 
@@ -127,9 +129,20 @@ h1, h2 {
 }
 
 .former-tenants {
-    border-style: double;
     border-color: aqua;
-    text-align: center;
+    text-align: left;
     background-color: antiquewhite;
+    float: left;
+    width: 50%;
+}
+
+.former-tenants, #nature {
+    position: relative;
+}
+
+/* style for the nature image */
+
+#nature {
+    float: right;
 }
 
