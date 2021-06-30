@@ -58,3 +58,34 @@ h1, h2 {
     border: 1px solid black;
 }
 
+/* Top "house" image and Introduction */
+
+#house-surround {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#house {
+    height: 600px;
+    width: 100%;
+    background: url('https://i.imgur.com/dVQK2Ed.jpg') no-repeat center center;
+}
+
+
+#cover-text {
+    font-size: 100%;
+    font-family: Montserrat, Raleway;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 400px;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(255, 233, 204, 0.644);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+}
+
