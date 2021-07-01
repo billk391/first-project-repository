@@ -34,7 +34,7 @@ body {
 }
 
 #home:hover {
-    background-color: antiquewhite;
+    background-color: moccasin;
 }
 
 h1 {
@@ -161,3 +161,53 @@ h1 {
     border-color: aqua;
 }
 
+/* style for feedback page */
+
+#response {
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    margin: 10%;
+    background-color: antiquewhite;
+}
+
+#feedback {
+    border-style: double;
+    border-color: aqua;
+    width: 50%;
+}
+
+#send {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: aqua;
+    background-color: burlywood;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 80px;
+    margin-left: 5%;
+}
+
+#send:hover {
+    background-color: moccasin;
+}
+
+/* style for contact page */
+
+#contact {
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    margin: 10%;
+    background-color: burlywood;
+}
+
+#contact h3 {
+    color: aqua;
+}
